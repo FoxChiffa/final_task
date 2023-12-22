@@ -259,6 +259,7 @@ a {
   margin-top: 75px;
   max-width: 314px;
   cursor: pointer;
+  outline: 3px solid #9D5CD0;
   -webkit-transition: border 0.3s ease-in-out, outline 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   -o-transition: border 0.3s ease-in-out, outline 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, outline 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -267,32 +268,31 @@ a {
 .hero__btn:hover {
   outline: 0;
   border-radius: 100px;
-  border: 1px solid var(--purpl-dark-color);
+  outline: 3px solid var(--purpl-dark-color);
 }
 
 .hero__btn:focus {
   border-radius: 100px;
-  border: 2px solid var(--pink-color);
+  outline: 2px solid var(--pink-color);
+  outline-offset: 5px;
   background-color: transparent;
   background: var(--purpl-color);
 }
 
 .hero__btn:active {
   border-radius: 100px;
-  border: 3px solid var(--purpl-dark-color);
+  outline-offset: 0px;
+  outline: 3px solid var(--purpl-dark-color);
   background: var(--purpl-color);
 }
 
 /* about */
-.about {
-  max-width: 1240px;
-}
-
 .about__title,
 .catolog__title {
   color: var(--gray-color);
   font-size: 48px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .about__title--smile {
@@ -303,12 +303,12 @@ a {
   font-size: 16px;
   line-height: 32px;
   margin-top: 19px;
+  max-width: 1085px;
 }
 
 .about__block--text,
 .catolog__block--text {
   margin-top: 86px;
-  margin-left: 160px;
 }
 
 /* gallery */
@@ -563,7 +563,7 @@ a {
 .nav__item--tiitleEvents {
   color: var(--gray-color);
   font-family: "OpenSans";
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   margin-top: 1px;
   margin-left: 47px;
@@ -662,15 +662,15 @@ a {
 
 /* project */
 .project {
-  max-width: 1777px;
+  /* max-width: 1777px; */
   margin-top: 87px;
-  margin-left: 160px;
 }
 
 .project__title {
   color: var(--gray-color);
   font-size: 48px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .project__title--text {
@@ -684,7 +684,7 @@ a {
 .project__title--smile {
   color: var(--gray-color);
   font-family: "OpenSans";
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   margin-top: 30px;
