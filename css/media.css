@@ -464,13 +464,17 @@
 
   .hero__title {
     color: #FFF;
-    font-family: "OpenSans-SemiBold";
+    font-weight: 600;
     font-size: 48px;
   }
 
   .gallery__block--image {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .gallery {
@@ -552,7 +556,7 @@
   }
 
   .hero {
-    max-width: 320px;
+    max-width: 100%;
     height: 309px;
   }
 
@@ -600,8 +604,8 @@
   }
 
   .gallery {
-    max-width: 320px;
-    min-height: 1208px;
+    max-width: 100%;
+    min-height: 1319px;
   }
 
   .gallery__title {
@@ -769,7 +773,7 @@
     border: 2px solid #9D5CD0;
     color: #9D5CD0;
     text-align: center;
-    font-family: "OpenSans-SemiBold";
+    font-weight: 600;
     font-size: 12px;
     letter-spacing: 0.4px;
   }

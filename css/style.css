@@ -151,7 +151,7 @@ a {
 }
 
 .header__container {
-  max-width: 1600px;
+  max-width: 100%;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
