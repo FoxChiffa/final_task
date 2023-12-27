@@ -108,7 +108,6 @@ a {
 /* header */
 .header {
   background-color: var(--black-color);
-  max-width: 1920px;
   min-height: 100px;
 
 }
@@ -217,7 +216,6 @@ a {
   background-image: url("../img/hero_back.jpg");
   background-position: bottom;
   background-size: cover;
-  max-width: 1920px;
   height: 700px;
 }
 
@@ -228,7 +226,6 @@ a {
   flex-direction: column;
   max-width: 717px;
   padding-top: 99px;
-  padding-left: 162px;
 }
 
 .hero__title {
@@ -248,7 +245,7 @@ a {
   line-height: 30px;
   letter-spacing: 0.3px;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .hero__btn {
@@ -310,7 +307,6 @@ a {
 }
 
 .about__title--smile {
-  height: 214px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   color: var(--gray-color);
@@ -327,16 +323,11 @@ a {
 
 /* gallery */
 .gallery {
-  max-width: 1920px;
-  min-height: 595px;
   background-image: url("../img/galary-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 80px;
-}
-
-.gallery__container {
-  min-height: 595px;
+  padding: 80px 0;
 }
 
 .gallery__title {
@@ -744,6 +735,7 @@ a {
   margin-top: 80px;
   min-width: 154px;
   border: 1px solid var(--light-color);
+  width: 100%;
 }
 
 .contact__adress {
@@ -909,7 +901,6 @@ a {
 /* footer */
 .footer {
   height: 140px;
-  max-width: 1920px;
   background-color: var(--black-color);
 }
 

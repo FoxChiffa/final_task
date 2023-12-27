@@ -39,7 +39,6 @@
   .gallery {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    min-height: 647px;
   }
 
   .gallery__container {
@@ -47,7 +46,6 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-height: 647px;
   }
 
   .gallery__block--image {
@@ -152,7 +150,6 @@
 
   /* about */
   .about__title--smile {
-    height: 310px;
     max-width: 964px;
   }
 
@@ -164,12 +161,12 @@
   /* gallery */
   .gallery {
     margin-top: 112px;
-    height: 642px;
     background-image: url(../img/galary-back2.jpg);
   }
 
   .gallery__content {
     margin-top: 53px;
+    margin-bottom: 40px;
   }
 
   .gallery__block--check {
@@ -204,7 +201,7 @@
   .nav__item--dateEvents {
     text-align: end;
     width: 145px;
-    /*     margin-left: auto; */
+    margin-left: auto;
     margin-right: 31px;
   }
 
@@ -296,10 +293,6 @@
     gap: 44px;
   }
 
-  .gallery {
-    height: 504px;
-  }
-
   .contact__btn {
     padding: 14px 57px;
     font-size: 14px;
@@ -318,17 +311,12 @@
   }
 
   .hero__content {
-    max-width: 641px;
+    max-width: 100%;
     padding-top: 39px;
   }
 
   .about__title--smile {
-    height: 310px;
     max-width: 715px;
-  }
-
-  .gallery {
-    height: 566px;
   }
 
   .gallery__block--image {
@@ -395,7 +383,7 @@
   }
 
   .project__title--text {
-    max-width: 654px;
+    max-width: 100%;
   }
 
   .project__title--smile {
@@ -473,12 +461,11 @@
     flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .gallery {
-    min-height: 758px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
   }
@@ -568,18 +555,19 @@
     padding-left: 8px;
     padding-top: 28px;
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .hero__title--smile {
     font-size: 12px;
     line-height: 16px;
     max-width: 266px;
-    margin-left: 32px;
   }
 
   .hero__btn {
     margin-top: 26px;
-    margin-left: 51px;
     font-size: 12px;
     max-width: 202px;
     height: 41px;
@@ -601,11 +589,6 @@
   .about__block--text,
   .catolog__block--text {
     margin-top: 52px;
-  }
-
-  .gallery {
-    max-width: 100%;
-    min-height: 1319px;
   }
 
   .gallery__title {
@@ -656,7 +639,6 @@
   }
 
   .nav__item--tiitleEvents {
-    margin-left: 23px;
     padding-top: 5px;
     font-size: 24px;
     max-width: 224px;
@@ -692,7 +674,6 @@
 
   .project {
     margin-top: 33px;
-    margin-left: 17px;
   }
 
   .project__title {
