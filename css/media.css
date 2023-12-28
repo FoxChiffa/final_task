@@ -1,32 +1,12 @@
 @media (max-width: 1620px) {
-  .header__search {
-    margin-left: 10%;
-  }
-
   .contact__adress {
     margin-left: 0;
-  }
-
-  .header__search {
-    margin-left: 2%;
-  }
-
-  .header__block {
-    margin-left: 2%;
   }
 }
 
 @media (max-width: 1521px) {
   .contact__adress {
     margin-left: 0;
-  }
-
-  .header__search {
-    margin-left: 2%;
-  }
-
-  .header__block {
-    margin-left: 2%;
   }
 }
 
@@ -97,21 +77,13 @@
     margin-right: auto;
   }
 
+  .header__search {
+    margin-top: 27px;
+  }
+
   .header__link {
     margin-right: auto;
-
     margin-top: 33px;
-    margin-left: 53px;
-  }
-
-  .header__search {
-    display: none;
-  }
-
-  .header__search--btn {
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 50px;
   }
 
   .header__img {
@@ -119,7 +91,6 @@
   }
 
   .header__block {
-    margin-left: 4.9%;
     margin-top: 17px;
     margin-bottom: 27px;
   }
@@ -283,14 +254,21 @@
   }
 }
 
+@media (max-width: 1029px) {
+  .header__search {
+    display: none;
+  }
+
+  .header__search--btn {
+    display: inline-block;
+    margin-top: 40px;
+  }
+}
+
 @media (max-width: 870px) {
   .header__block {
     overflow-x: scroll;
     overflow-y: hidden;
-  }
-
-  .nav__list {
-    gap: 44px;
   }
 
   .contact__btn {
@@ -301,8 +279,15 @@
 
 @media (max-width: 769px) {
   .nav__list {
-    gap: 42px;
     margin-left: 12px;
+  }
+
+  .nav__link {
+    font-size: 12px;
+  }
+
+  .header__block {
+    width: 100%;
   }
 
   .hero {
@@ -334,6 +319,10 @@
   .nav__item--image {
     width: 100%;
     height: 418px;
+  }
+
+  .nav {
+    padding-bottom: 4px;
   }
 
   .nav__blcok {
@@ -427,6 +416,13 @@
     font-size: 18px;
   }
 
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
   .footer_social {
     margin-right: 6.8%;
   }
@@ -442,6 +438,13 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 
   .footer,
@@ -496,7 +499,6 @@
     height: 22px;
     margin-top: 16px;
     margin-left: 16px;
-    margin-right: 50px;
   }
 
   .header__container {

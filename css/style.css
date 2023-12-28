@@ -112,11 +112,6 @@ a {
 
 }
 
-.header__link {
-  max-width: 173px;
-  height: 39.903px;
-}
-
 .header__svg {
   width: 28px;
   height: 28px;
@@ -153,12 +148,8 @@ a {
   max-width: 100%;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: auto;
-}
-
-.header__block {
-  margin-left: 180px;
 }
 
 .nav__link {
@@ -208,7 +199,6 @@ a {
 
 .header__search {
   margin-top: 6px;
-  margin-left: 296px;
 }
 
 /* hero */
